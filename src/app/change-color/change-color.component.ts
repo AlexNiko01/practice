@@ -10,11 +10,7 @@ export class ChangeColorComponent implements OnInit {
     isPressed: boolean = false;
 
     changeStatus() {
-        if(this.isPressed){
-            this.isPressed = true;
-        }else{
-            this.isPressed = false;
-        }
+        this.isPressed=!this.isPressed;
     }
 
     constructor() {

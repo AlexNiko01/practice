@@ -1,4 +1,6 @@
-<button class="button-colored" (click)="changeStatus()" >
-  change-color
+<button class="button-colored" (click)="changeStatus()">
+    change-color
 </button>
-<div>color is changed</div>
+<div [class.redText]="isPressed"><h1>color is changed</h1></div>
+
+<div [ngClass]="{redText: isPressed}"><h1>color is changed</h1></div>
