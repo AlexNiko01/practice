@@ -7,6 +7,7 @@ import { ChangeColorComponent } from './change-color/change-color.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
