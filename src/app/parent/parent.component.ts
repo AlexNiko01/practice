@@ -16,6 +16,7 @@ export class ParentComponent implements OnInit {
     }
 
     setTextFromChild(eventParam) {
+        console.log('parent method');
         console.log(eventParam);
         this.parentText = eventParam;
         console.log(this.parentText);

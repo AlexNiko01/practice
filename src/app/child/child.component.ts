@@ -18,7 +18,6 @@ export class ChildComponent implements OnInit {
     }
 
     sendToParent() {
-        console.log(this.text);
         this.update.emit(this.text);
     }
 }
