@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ChangeColorComponent } from './change-color/change-color.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { ButtonsComponent } from './buttons/buttons.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ChildComponent } from './child/child.component';
     AppComponent,
     ChangeColorComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    ButtonsComponent
   ],
   imports: [
     BrowserModule,
