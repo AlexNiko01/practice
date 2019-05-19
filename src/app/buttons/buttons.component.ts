@@ -23,20 +23,6 @@ export class ButtonsComponent implements OnInit {
     }
 
     public setShowing(index) {
-        console.log(index);
-        switch (index) {
-            case 0:
-                this.ind = 0;
-                console.log(this.ind);
-                break;
-            case 1:
-                this.ind = 1;
-                console.log(this.ind);
-                break;
-            case 2:
-                this.ind = 2;
-                console.log(this.ind);
-                break
-        }
+        this.ind = index;
     }
 }

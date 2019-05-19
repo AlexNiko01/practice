@@ -2,7 +2,8 @@
     <img [ngClass]="((ind === i) || (ind === 2)) ? 'img-shown' : 'img'" src="{{img}}" alt="">
 </ng-container>
 <div>
-    <button (click)="setShowing(0)">show first img</button>
-    <button (click)="setShowing(1)">show second img</button>
+    <ng-container *ngFor="let img of images; index as i; ">
+        <button (click)="setShowing(i)">show i img</button>
+    </ng-container>
     <button (click)="setShowing(2)">show both</button>
 </div>
